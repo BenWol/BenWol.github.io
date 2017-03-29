@@ -1,6 +1,6 @@
-## Benni loves Itsaso!
+## March 29th, 2017
 
-
+Placa del Sol, Gracia, Barcelona
 ```{r leaflet, echo = FALSE}
 library(leaflet)
 catalonia_flag <- makeIcon(
