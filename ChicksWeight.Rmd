@@ -9,7 +9,7 @@ Time <- ChickWeight$Time
 Chick <- ChickWeight$Chick
 Diet <- ChickWeight$Diet
 o <- plot_ly(x=Time,y=weight,z=Chick,type="scatter3d",mode="markers",color=as.factor(Diet))%>% 
-  layout(title = "Chicken weight over time.",
+  layout(title = "Chicken weight over time for a different diet (colors).",
          scene = list(
            xaxis = list(title = "time"), 
            yaxis = list(title = "weight"), 
